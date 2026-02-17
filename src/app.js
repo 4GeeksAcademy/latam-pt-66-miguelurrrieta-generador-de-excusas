@@ -16,7 +16,7 @@ const when = ['before the class', 'when I was sleeping', 'while I was exercising
   let rdmWhat = Math.floor(Math.random() * what.length);
   let rdmWhen = Math.floor(Math.random() * when.length)
 
-  let finalExcuse= who[rdmWho] + "The dog" + action[rdmAction] + "ate"+ what [rdmWhat] +" my homework" + when[rdmWhen]; 
+  let finalExcuse= who[rdmWho] + " " + action[rdmAction] + " " + what [rdmWhat] + " " + when[rdmWhen]; 
 
  
   document.querySelector("#excuse").innerHTML= finalExcuse;
